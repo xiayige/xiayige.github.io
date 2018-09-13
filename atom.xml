@@ -5,9 +5,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="https://xiayige.github.io/"/>
   <updated>2018-09-13T07:40:01.000Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>https://xiayige.github.io/</id>
   
   <author>
     <name>郭三石</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>postName</title>
-    <link href="http://yoursite.com/2018/09/13/postName/"/>
-    <id>http://yoursite.com/2018/09/13/postName/</id>
+    <link href="https://xiayige.github.io/2018/09/13/postName/"/>
+    <id>https://xiayige.github.io/2018/09/13/postName/</id>
     <published>2018-09-13T07:40:01.000Z</published>
     <updated>2018-09-13T07:40:01.000Z</updated>
     
@@ -32,8 +32,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://yoursite.com/2018/09/13/hello-world/"/>
-    <id>http://yoursite.com/2018/09/13/hello-world/</id>
+    <link href="https://xiayige.github.io/2018/09/13/hello-world/"/>
+    <id>https://xiayige.github.io/2018/09/13/hello-world/</id>
     <published>2018-09-13T07:33:19.000Z</published>
     <updated>2018-09-13T07:33:19.000Z</updated>
     
@@ -53,8 +53,8 @@
   
   <entry>
     <title></title>
-    <link href="http://yoursite.com/2018/04/12/%E5%AE%9A%E4%BD%8D%E6%B5%81/"/>
-    <id>http://yoursite.com/2018/04/12/定位流/</id>
+    <link href="https://xiayige.github.io/2018/04/12/%E5%AE%9A%E4%BD%8D%E6%B5%81/"/>
+    <id>https://xiayige.github.io/2018/04/12/定位流/</id>
     <published>2018-04-12T10:08:01.000Z</published>
     <updated>2018-04-13T07:36:37.000Z</updated>
     
