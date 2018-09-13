@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>郭三石的博客</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2018-09-13T07:40:01.000Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>郭三石</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>postName</title>
+    <link href="http://yoursite.com/2018/09/13/postName/"/>
+    <id>http://yoursite.com/2018/09/13/postName/</id>
+    <published>2018-09-13T07:40:01.000Z</published>
+    <updated>2018-09-13T07:40:01.000Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://yoursite.com/2018/09/13/hello-world/"/>
+    <id>http://yoursite.com/2018/09/13/hello-world/</id>
+    <published>2018-09-13T07:33:19.000Z</published>
+    <updated>2018-09-13T07:33:19.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://yoursite.com/2018/04/12/%E5%AE%9A%E4%BD%8D%E6%B5%81/"/>
+    <id>http://yoursite.com/2018/04/12/定位流/</id>
+    <published>2018-04-12T10:08:01.000Z</published>
+    <updated>2018-04-13T07:36:37.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>定位</p><p>相对定位 对定位就是相对于自己以前在标准流中的位置来移动<br> 相对定位注意点:<br> 在相对定位中同一个方向上的定位属性只能使用一个<br> top/bottom 只能用一个<br> left/right 只能用一个<br> 相对定位是不脱离标准流的, 会继续在标准流中占用一份空间<br> 由于相对定位是不脱离标准流的, 所以在相对定位中区分块级元素/行内元素/行内块级元素<br> 由于相对定位是不脱离标准流的, 并且相对定位的元素会占用标准流中的位置, 所以当给相对定位的元素设置margin/padding等属性的时会影响到标准流的布局</p><p> 相对定位应用场景:<br>     用于对元素进行微调<br>     配合后面学习的绝对定位来使用</p><p>绝对定位 就是相对于body或者某个定位流中的祖先元素来定位<br>    绝对定位的元素是脱离标准流的, 不会占用标准流中的位置<br>    由于绝对定位的元素是脱离标准流的, 所以绝对定位的元素不区分块级元素/行内元素/行内块级元素<br>    绝对定位参考点:(定位流中静态定位不行)<br>    默认情况下所有的绝对定位的元素, 无论有没有祖先元素, 都会以body作为参考点<br>    一个绝对定位的元素会忽略祖先元素的padding<br>    如果一个绝对定位的元素有祖先元素, 并且祖先元素中有一个是定位流中的元素, 那么这个绝对定位的元素就会以定位流的那个祖先元素作为参考点<br>    如果一个绝对定位的元素有祖先元素, 并且祖先元素中有多个是定位流中的元素, 那么这个绝对定位的元素会以离它最近的那个定位流的祖先元素为参考点<br>    如果一个绝对定位的元素是以body作为参考点, 那么其实是以网页首屏的宽度和高度作为参考点, 而不是以整个网页的宽度和高度作为参考点</p><p>固定定位<br>      固定定位的元素是脱离标准流的, 不会占用标准流中的位置<br>      由于固定定位的元素是脱离标准流的, 所以绝对定位的元素不区分块级元素/行内元素/行内块级元素<br>      固定定位和前面学习的背景关联方式很像, 背景关联方式可以让某个图片不随着滚动条的滚动而滚动, 而固定定位可以让某个盒子不随着滚动条的滚动而滚动<br>      IE6不支持固定定位<br>      网页头部通栏(穿透效果)</p><p>静态定位<br>          默认情况下标准流中的元素position属性就等于static, 所以静态定位其实就是默认的标准流<br>      一般用于配合JS清除定位属性</p><p> z-index属性  用于指定定位的元素的覆盖关系<br> 定位元素的覆盖关系:<br>默认情况下定位的元素一定会盖住没有定位的元素<br>默认情况下写在后面的定位元素会盖住前面的定位元素<br>默认情况下所有元素的z-index值都是0, 如果设置了元素的z-index值, 那么谁比较大谁就显示在前面</p><p>定位元素的从父现象<br>父元素没有z-index值, 那么子元素谁的z-index大谁盖住谁<br>父元素z-index值不一样, 那么父元素谁的z-index大谁盖住谁</p><p>a标签的伪类选择器是用来修改a类选择器的<br>默认状态 ：link<br>被访问后的状态： visited<br>悬停状态：hover<br>点击状态：active<br>如果一起出现   默认状态 被访问后的状态 悬停状态 点击状态 爱恨原则 love hate</p><p>规则：<br>编写顺序  a标签伪类选择最后面   在开发中和a标签相关的属性</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;定位&lt;/p&gt;
+&lt;p&gt;相对定位 对定位就是相对于自己以前在标准流中的位置来移动&lt;br&gt; 相对定位注意点:&lt;br&gt; 在相对定位中同一个方向上的定位属性只能使用一个&lt;br&gt; top/bottom 只能用一个&lt;br&gt; left/right 只能用一个&lt;br&gt; 相对定位是不脱离标准流
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
